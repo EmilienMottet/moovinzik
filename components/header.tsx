@@ -25,7 +25,7 @@ export default function Header() {
                                 className={styles.buttonPrimary}
                                 onClick={(e) => {
                                     e.preventDefault()
-                                    signIn()
+                                    signIn('strava')
                                 }}
                             >
                                 Sign in
